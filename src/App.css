@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  width: 1000px;
+  margin: 100px auto;
+  border: 1px solid purple;
+  padding: 20px;
+}
+input{
+  background: rgb(92, 206, 214);
+  color: rgb(53, 53, 53);
+  border:1px solid  darkblue;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 300px; 
+  outline: unset;
+  direction: rtl
+}
+.btn_wrapper{
+  margin-top: 10px;
+}
+.btn_wrapper button{
+  background-color: rgb(83, 190, 173);
+  font-size: 15px;
+  color: rgb(1, 29, 29);
+  border: 1px solid rgb(43, 121, 108);
+  box-shadow: 0 1px 3px 0 rgb(0, 94, 89);
+  line-height: 25px;
+  margin: 0 10px;
+}
+ul{
+  text-align: right;
+  direction: rtl;
+}
+li{
+  padding-left:100px;
+  position: relative;
+  line-height: 30px;
+}
+li .checkbox{
+position: absolute;
+left: 10px;
+top: 5px;
+width: 20px;
+height: 20px;
+margin: 0;
+}
+li:first-child{
+list-style-type: none
+}
+li img{
+  position: absolute;
+left: 60px;
+top: 5px;
+width: 20px;
+height: 20px;
+}
+p{
+  position: relative;
+  display: inline-block
+}
+.title_check,.title_img{
+  position: absolute;
+  left: 60px;
+  top: 5px;
+  font-size: 13px;
+  line-height: 20px;
+}
+.title_check{
+  left: -2px;
+}
+li.did > p{
+  color: rgb(112, 112, 112)
+}
+li.did > p:after{
+content: '';
+position: absolute;
+left: 0;
+right:0;
+top: 50%;
+height: 1px;
+background: grey;
+}
